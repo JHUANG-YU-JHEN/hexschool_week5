@@ -1,0 +1,61 @@
+
+html,body{
+    height: 100%;
+}
+
+/* .sidebar {
+    width: 296px;
+    max-height: 2000px;
+  } */
+  .greenHover a:hover {
+    border-left: 4px solid #198754;
+  }
+  .landscape {
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .landscape > img {
+    position: absolute;
+  }
+
+  .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+.menuLink {
+    color: #000;
+    height: 32px;
+    padding-left: 32px;
+}
+.userInformation{
+    padding-left: 32px;
+
+    h6{
+        font-weight: bold;
+    }
+    p{
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+}
+.sideMenuUser {
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .sideMenuUser > img {
+    position: absolute;
+  }
